@@ -1,94 +1,83 @@
-# NexusMarket AI 📊
+# 🤖 NexusMarket AI
 
-**Technical Skills & Global Talent Analytics** — an interactive Streamlit application for exploring simulated technology-job-market data, salary patterns, geographic hubs, experience levels, and in-demand technical skills.
+### Technical Skills & Global Talent Analytics Dashboard
 
-> Portfolio project by **Alkamah Sakilur Rashid**
+An interactive **Streamlit + Python analytics application** for exploring technology-job-market patterns, compensation distributions, geographic hubs, experience levels, and technical-skill signals.
 
-## 🎯 What It Does
+> **Portfolio project by Alkamah Sakilur Rashid**
 
-NexusMarket AI provides an interactive analytics workspace where users can:
+## ✨ What This Project Demonstrates
 
-- Filter technology roles and market hubs
-- Explore compensation distributions
-- Compare market representation by geography
-- Extract common technical skills from job-market data
-- Inspect the underlying analytical dataset
-- Experiment with data-driven product/dashboard design
+- 📊 Interactive exploratory data analysis
+- 🎛️ Multi-filter dashboard design
+- 💰 Compensation distribution analysis
+- 🌍 Geographic market comparison
+- 🧠 Technical-skill keyword visualization
+- 🗂️ Interactive data exploration
+- 🐍 Python-based analytics workflow
 
-## 📊 Dashboard Components
+## 📌 Dashboard
 
-| Component | Purpose |
-| --- | --- |
-| KPI cards | Records, average compensation, and dominant role |
-| Compensation matrix | Compare salary distributions across roles |
-| Market hub chart | Explore geographic representation |
-| NLP word cloud | Visualize frequently occurring technical skills |
-| Data explorer | Inspect filtered records directly |
+| Feature | Purpose |
+|---|---|
+| KPI cards | Records, average compensation and dominant role |
+| Compensation analysis | Compare salary distributions across roles |
+| Market hub analysis | Explore geographic representation |
+| NLP word cloud | Visualize recurring technical skills |
+| Data explorer | Inspect filtered records |
 
-## 🧠 Analytics Stack
+## 🧰 Tech Stack
 
-- **Python** for application and analysis logic
-- **Pandas / NumPy** for data processing
-- **Matplotlib / Seaborn** for visualization
-- **WordCloud** for keyword visualization
-- **Streamlit** for the interactive dashboard
+<p align="center">
+<img src="https://skillicons.dev/icons?i=python" alt="Python" />
+<img src="https://skillicons.dev/icons?i=streamlit" alt="Streamlit" />
+<img src="https://skillicons.dev/icons?i=postgresql" alt="PostgreSQL" />
+</p>
 
-## ⚠️ Data Note
+**Core libraries:** Pandas · NumPy · Matplotlib · Seaborn · WordCloud
 
-The current application generates a **synthetic/simulated dataset** for demonstration and portfolio purposes. The salary and market values should therefore not be interpreted as live labor-market statistics.
+## 🧠 Skills Shown
 
-## 🛠️ Installation
+`Python` `Data Analysis` `EDA` `Data Visualization` `Streamlit` `Pandas` `NumPy` `NLP` `Dashboard Design`
 
-Clone the repository:
+## ⚠️ Data Transparency
+
+The current application generates a **synthetic/simulated dataset** for portfolio demonstration. Salary and market values are therefore **not live labor-market statistics** and should not be used for real-world compensation decisions.
+
+## 🚀 Run Locally
 
 ```bash
 git clone https://github.com/sakilurrashid1-star/Nexusmarket-ai..git
 cd Nexusmarket-ai.
-```
-
-Create a virtual environment:
-
-```bash
 python -m venv .venv
 ```
 
-Activate it on Windows:
+### Windows
 
 ```bash
 .venv\Scripts\activate
 ```
 
-Install dependencies:
+### Install & run
 
 ```bash
 pip install -r requirements.txt
-```
-
-Run the application:
-
-```bash
 streamlit run app.py
 ```
 
-> If your main Python file has a different name, replace `app.py` with that filename.
+## 🗺️ Roadmap
 
-## 📦 Dependencies
-
-The project uses Streamlit, Pandas, NumPy, Matplotlib, Seaborn, and WordCloud. fileciteturn6file0
-
-## 🔮 Future Roadmap
-
-- Connect to real job-market datasets
-- Add SQL/database-backed ingestion
-- Add model-based salary prediction
-- Add skill-demand trend analysis
-- Add geographic salary normalization
-- Add automated data-quality checks
-- Deploy the dashboard publicly
+- [ ] Connect real job-market datasets
+- [ ] Add SQL/database-backed ingestion
+- [ ] Add salary prediction models
+- [ ] Add skill-demand trend analysis
+- [ ] Add geographic salary normalization
+- [ ] Add automated data-quality checks
+- [ ] Deploy a public dashboard
 
 ## 👤 Author
 
 **Alkamah Sakilur Rashid**  
-Computer Science Student · Data & AI Explorer
+Computer Science Student · Data & AI Explorer · Full-Stack Developer
 
-[GitHub](https://github.com/sakilurrashid1-star) · [Portfolio](https://github.com/sakilurrashid1-star/alkamah-portfolio)
+urlGitHub Profilehttps://github.com/sakilurrashid1-star · urlPortfolio Repositoryhttps://github.com/sakilurrashid1-star/alkamah-portfolio
